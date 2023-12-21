@@ -16,12 +16,25 @@ nav{
   grid-gap: 40px;
   font-weight: 500;
 }
+p{
+  font-weight: bolder;
+}
+a {
+  text-decoration: none; /* Removes underline */
+  color: black; /* Changes link color */
+}
+
+/* Styling for visited links */
+a:visited {
+  color: #0a0a0a; /* Change color for visited links if needed */
+}
 li{
   list-style: none;
   display: inline;
   padding: 10px ;
   text-transform: uppercase;
   cursor: pointer;
+
 }
 li:hover{
   font-weight: 900;
@@ -289,4 +302,31 @@ footer{
   }
 }
 
+
+.another-article {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.another-article h3,
+.another-article p {
+  margin-bottom: 10px;
+}
+
+.another-article img {
+  height: 400px;
+  width: 700px;
+}
+
+.another-article .read-more-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  float: right;
+  padding: 10px 20px 10px 20px;
+}
+
+.another-article .read-more-btn:hover {
+  background-color: #a9a9a9;
+}
 
